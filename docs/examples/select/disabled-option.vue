@@ -7,6 +7,9 @@
       :value="item.value"
       :disabled="item.disabled"
     />
+    <template #footer>
+      <el-button>Default</el-button>
+      </template>
   </el-select>
 </template>
 
